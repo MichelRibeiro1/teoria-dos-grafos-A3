@@ -1,3 +1,10 @@
+/**
+ * Implementação do Depth-First Search
+ * @param {*} graph
+ * @param {*} src
+ * @param {*} dest
+ * @param {*} visited
+ */
 function dfs(graph = {}, src, dest, visited = new Set()) {
     if (visited.has(src)) return false;
 

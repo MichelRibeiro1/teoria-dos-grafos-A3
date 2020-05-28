@@ -1,3 +1,9 @@
+/**
+ * Implementação do Breadth-First Search
+ * @param {*} graph
+ * @param {*} src
+ * @param {*} dest
+ */
 function bfs(graph = {}, src, dest) {
     const queue = [src];
     const visited = new Set();

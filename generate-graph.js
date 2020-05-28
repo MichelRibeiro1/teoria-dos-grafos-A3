@@ -1,5 +1,11 @@
 const fs = require("fs");
 
+/**
+ * Essa função irá ler um arquivo .csv que contém uma matriz de adjacência
+ * retornando o grafo equivalente na estrutura de um objeto
+ * @param {string} filename
+ * @returns
+ */
 function generateGraph(filename) {
     const graph = {};
 
