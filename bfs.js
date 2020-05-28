@@ -20,7 +20,7 @@ function bfs(graph = {}, src, dest) {
         }
 
         const neighbors = graph[vertex];
-        queue.push.apply(queue, neighbors);
+        queue.push(...neighbors);
     }
     return false;
 }
